@@ -23,6 +23,11 @@ textures from the following two external sources:
 * [IGOAL](https://nasa3d.arc.nasa.gov/detail/iss-internal) - ISS Interior.
 * [RoboNaut2](https://gitlab.com/nasa-jsc-robotics/r2_gazebo) - ISS Handrails.
 
+## Change Log
+
+v0.0.2 : Added granite lab mesh.
+v0.0.1 : Added dock, space station, free-flyer and perching arm meshes.
+
 ## Usage Guidelines
 
 The repository contains original multimedia created in the Astrobee project and
