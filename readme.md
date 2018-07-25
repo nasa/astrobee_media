@@ -25,8 +25,9 @@ textures from the following two external sources:
 
 ## Change Log
 
-v0.0.2 : Added granite lab mesh.
-v0.0.1 : Added dock, space station, free-flyer and perching arm meshes.
+*v0.0.2* : Added granite lab mesh.
+
+*v0.0.1* : Added dock, space station, free-flyer and perching arm meshes.
 
 ## Usage Guidelines
 
