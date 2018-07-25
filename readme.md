@@ -38,4 +38,4 @@ NASAs [Media Usage Guidelines](https://www.nasa.gov/multimedia/guidelines/index.
 ## Instructions
 
 Setup instructions for the Astrobee Robot Software may be found on the
-[official respository](https://github.com/nasa/astrobee).
+[official repository](https://github.com/nasa/astrobee).
