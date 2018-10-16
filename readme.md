@@ -25,9 +25,9 @@ textures from the following two external sources:
 
 ## Change Log
 
-*v0.0.2* : Added granite lab mesh.
-
-*v0.0.1* : Added dock, space station, free-flyer and perching arm meshes.
+v0.0.3 : Restructured media to allow spawning certain models from world file.
+v0.0.2 : Added granite lab mesh.
+v0.0.1 : Added dock, space station, free-flyer and perching arm meshes.
 
 ## Usage Guidelines
 
@@ -38,4 +38,4 @@ NASAs [Media Usage Guidelines](https://www.nasa.gov/multimedia/guidelines/index.
 ## Instructions
 
 Setup instructions for the Astrobee Robot Software may be found on the
-[official repository](https://github.com/nasa/astrobee).
+[official respository](https://github.com/nasa/astrobee).
