@@ -17,7 +17,7 @@
 <!-- implied. See the License for the specific language governing            -->
 <!-- permissions and limitations under the License.                          -->
 
-<robot name="handrail_30" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot name="handrail" xmlns:xacro="http://www.ros.org/wiki/xacro">
   <link name="body">
     <inertial>
       <mass value="20"/>

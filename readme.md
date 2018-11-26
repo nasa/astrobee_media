@@ -25,6 +25,7 @@ textures from the following two external sources:
 
 ## Change Log
 
+v0.0.4 : Improved handrail meshes and perching arm textures.
 v0.0.3 : Restructured media to allow spawning certain models from world file.
 v0.0.2 : Added granite lab mesh.
 v0.0.1 : Added dock, space station, free-flyer and perching arm meshes.

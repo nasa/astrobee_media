@@ -16,5 +16,7 @@
   </maintainer>
   <buildtool_depend>catkin</buildtool_depend>
   <run_depend>gazebo_ros</run_depend>
-  <export/>
+  <export>
+    <gazebo_ros gazebo_media_path="${prefix}/media"/>
+  </export>
 </package>
