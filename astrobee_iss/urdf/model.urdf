@@ -153,7 +153,7 @@
       </geometry>
     </visual>
     <collision name="iss_us_lab_collision">
-      <origin xyz="6.3085472  0.0064770 4.8508920" rpy="0 0 0" />
+      <origin xyz="6.3085472  0.0064770 4.8508920" rpy="3.1415 0 0" />
       <geometry>
         <mesh filename="package://astrobee_iss/meshes/us_lab.dae"/>
       </geometry>
