@@ -62,8 +62,4 @@
       </gazebo>
     </collision>
   </link>
-  <gazebo>
-    <static>true</static>
-    <plugin name="dock_ros" filename="libgazebo_model_plugin_dock.so"/>
-  </gazebo>
 </robot>
