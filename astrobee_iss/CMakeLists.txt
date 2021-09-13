@@ -15,7 +15,11 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
+cmake_minimum_required(VERSION 2.8.3)
 project(astrobee_iss)
+
+find_package(catkin REQUIRED COMPONENTS
+)
 
 catkin_package(CATKIN_DEPENDS gazebo_ros)
 
