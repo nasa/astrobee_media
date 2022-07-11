@@ -107,13 +107,13 @@
     </collision>
     <!-- Node 2 -->
     <visual name="iss_node_2_visual">
-      <origin xyz="10.9344206  0.0107442 4.8558958" rpy="0 0 0" />
+      <origin xyz="10.9744206  -0.0112558 4.8358958" rpy="0 0 0" />
       <geometry>
         <mesh filename="package://astrobee_iss/meshes/node_2.dae"/>
       </geometry>
     </visual>
     <collision name="iss_node_2_collision">
-      <origin xyz="10.9344206  0.0107442 4.8558958" rpy="0 0 0" />
+      <origin xyz="10.9744206  -0.0112558 4.8358958" rpy="0 0 0" />
       <geometry>
         <mesh filename="package://astrobee_iss/meshes/node_2.dae"/>
       </geometry>
@@ -147,15 +147,15 @@
     </collision>
     <!-- US Lab -->
     <visual name="iss_us_lab_visual">
-      <origin xyz="6.3085472  0.0064770 4.8508920" rpy="3.1415 0 0" />
+      <origin xyz="6.3085472  0.0064770 4.8348920" rpy="3.1415 0 0" />
       <geometry>
-        <mesh filename="package://astrobee_iss/meshes/us_lab.dae"/>
+        <mesh filename="package://astrobee_iss/meshes/us_lab.dae" scale="1.0858 1.0858 1.0858"/>
       </geometry>
     </visual>
     <collision name="iss_us_lab_collision">
-      <origin xyz="6.3085472  0.0064770 4.8508920" rpy="3.1415 0 0" />
+      <origin xyz="6.4125472  0.0064770 4.8348920" rpy="3.1415 0 0" />
       <geometry>
-        <mesh filename="package://astrobee_iss/meshes/us_lab.dae"/>
+        <mesh filename="package://astrobee_iss/meshes/us_lab.dae" scale="1.0858 1.0858 1.0858"/>
       </geometry>
       <gazebo>
         <surface>
