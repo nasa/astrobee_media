@@ -106,6 +106,8 @@
       </gazebo>
     </collision>
     <!-- Node 2 -->
+    <!-- The positions defer slightly from the ISS documentation, adjusted
+    to match the relative node position for bundle adjusted sparse mapping -->
     <visual name="iss_node_2_visual">
       <origin xyz="10.9744206  -0.0112558 4.8358958" rpy="0 0 0" />
       <geometry>
@@ -146,6 +148,10 @@
       </gazebo>
     </collision>
     <!-- US Lab -->
+    <!-- The scale was changed to match what the iGoal model finds and validated
+    both through measuring the hatches (ISS hatches are the same size) and through
+    sparse mapping validation. The positions defer slightly from the ISS documentation,
+    adjusted to match the relative node position for bundle adjusted sparse mapping -->
     <visual name="iss_us_lab_visual">
       <origin xyz="6.3085472  0.0064770 4.8348920" rpy="3.1415 0 0" />
       <geometry>
