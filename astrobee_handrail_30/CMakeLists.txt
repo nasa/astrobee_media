@@ -15,13 +15,26 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.5)
 project(astrobee_handrail_30)
 
-find_package(catkin REQUIRED COMPONENTS
-)
+# Build for ROS1
+if("$ENV{ROS_VERSION}" STREQUAL "1")
+
+find_package(catkin REQUIRED COMPONENTS)
 
 catkin_package(CATKIN_DEPENDS gazebo_ros)
+
+# Build for ROS2
+elseif("$ENV{ROS_VERSION}" STREQUAL "2")
+  # Find amend and libraries
+  find_package(ament_cmake REQUIRED)
+
+  set(CATKIN_PACKAGE_SHARE_DESTINATION "share/${PROJECT_NAME}")
+
+  ament_package()
+endif()
+
 
 install(DIRECTORY urdf DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 install(DIRECTORY media DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
