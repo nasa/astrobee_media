@@ -18,24 +18,19 @@
 cmake_minimum_required(VERSION 3.5)
 project(astrobee_handrail_41_5)
 
-# Build for ROS1
-if("$ENV{ROS_VERSION}" STREQUAL "1")
+# Find amend and libraries
+find_package(ament_cmake REQUIRED)
 
-find_package(catkin REQUIRED COMPONENTS)
+#############
+## Install ##
+#############
 
-catkin_package(CATKIN_DEPENDS gazebo_ros)
+ament_environment_hooks("${CMAKE_CURRENT_SOURCE_DIR}/env-hooks/${PROJECT_NAME}.dsv.in")
 
-# Build for ROS2
-elseif("$ENV{ROS_VERSION}" STREQUAL "2")
-  # Find amend and libraries
-  find_package(ament_cmake REQUIRED)
+install(DIRECTORY urdf DESTINATION share/${PROJECT_NAME})
+install(DIRECTORY media DESTINATION share/${PROJECT_NAME})
+install(DIRECTORY meshes DESTINATION share/${PROJECT_NAME})
 
-  set(CATKIN_PACKAGE_SHARE_DESTINATION "share/${PROJECT_NAME}")
+install(PROGRAMS model.config DESTINATION share/${PROJECT_NAME})
 
-  ament_package()
-endif()
-
-
-install(DIRECTORY urdf DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
-install(DIRECTORY media DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
-install(DIRECTORY meshes DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
+ament_package()
