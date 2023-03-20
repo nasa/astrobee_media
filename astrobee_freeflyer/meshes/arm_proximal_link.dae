@@ -37,7 +37,7 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <texture texture="black_png-sampler"/>
+              <texture texture="black_png-sampler" texcoord="UVSET0"/>
             </diffuse>
             <specular>
               <color sid="specular">0.25 0.25 0.25 1</color>
