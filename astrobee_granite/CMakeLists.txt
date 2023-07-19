@@ -32,5 +32,7 @@ install(DIRECTORY media DESTINATION share/${PROJECT_NAME})
 install(DIRECTORY meshes DESTINATION share/${PROJECT_NAME})
 
 install(PROGRAMS model.config DESTINATION share/${PROJECT_NAME})
+install(PROGRAMS model.config DESTINATION share/colcon-core)
+install(PROGRAMS model.config DESTINATION share/ament_index)
 
 ament_package()
